@@ -27,6 +27,7 @@ Display your feed as a one-page website with channel and item images
   - enclosure url
   - enclosure lenght (file size)
   - itunes:duration
+  - pubDate
 
 ## Instructions
 
