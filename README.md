@@ -9,9 +9,9 @@ Display your feed as a one-page website with channel and item images
 
 # what it uses
 - channel
+  - generator
   - title
   - itunes:subtitle
-  - generator
   - image
   - description
   - itunes:author
