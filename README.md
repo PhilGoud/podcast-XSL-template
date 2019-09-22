@@ -1,4 +1,4 @@
-# podcast feed XSL template
+# Podcast feed XSL template
 <img align="right" width="350" src="https://i.imgur.com/n4AiKPF.png">
 A template to display your feed as a HTML page
 Designed primarily for podcasts feeds as it is expecting enclosures etc
@@ -7,7 +7,7 @@ Designed primarily for podcasts feeds as it is expecting enclosures etc
 
 Display your feed as a one-page website with channel and item images
 
-# what it uses
+# What it uses
 - channel
   - generator
   - title
@@ -41,3 +41,4 @@ Display your feed as a one-page website with channel and item images
 If nothing is displayed check your feed for characters like "&" for example
 
 If things are missing, check your feed, it may not be present
+
