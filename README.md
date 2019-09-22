@@ -9,7 +9,7 @@ Display your feed as a one-page website with channel and item images
 
 ## Instructions
 
-- Store the template.xsl file somewhere on your server
+- Donwload and host the template.xsl file somewhere on your server
 - add `<?xml-stylesheet type="text/xsl" href="/path/to/your/template.xls" ?>` at the beggining of your XML feed just before `<channel>`, for example
 - check your feed address, you should see a beautiful webpage like the one displayed here
 
