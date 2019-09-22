@@ -1,4 +1,5 @@
 # podcast feed XSL template
+<img align="right" width="350" src="https://i.imgur.com/n4AiKPF.png">
 A template to display your feed as a HTML page
 Designed primarily for podcasts feeds as it is expecting enclosures etc
 
