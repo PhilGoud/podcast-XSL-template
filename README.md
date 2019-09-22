@@ -7,6 +7,27 @@ Designed primarily for podcasts feeds as it is expecting enclosures etc
 
 Display your feed as a one-page website with channel and item images
 
+# what it uses
+- channel
+  - title
+  - itunes:subtitle
+  - generator
+  - image
+  - description
+  - itunes:author
+  - link
+  - copyright
+  
+- item
+  - title
+  - link
+  - description
+  - itunes:image
+  - itunes:author
+  - enclosure url
+  - enclosure lenght (file size)
+  - itunes:duration
+
 ## Instructions
 
 - Donwload and host the template.xsl file somewhere on your webserver (publicly available of course)
