@@ -9,6 +9,7 @@
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                 <style type="text/css">
                 	@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+                    @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 
                     body {
                         font-family: 'Montserrat', sans-serif;
@@ -137,6 +138,11 @@
   					     font-weight: 500;
   					     margin-bottom: 20px;                    
                     }
+                    .fa, .far, .fas {
+                         font-family: "Font Awesome 5 Free";
+                         margin-left: 5px;
+                         margin-right: 5px;
+                    }
                 </style>
             </head>
             <body>
@@ -174,7 +180,7 @@
                                     <xsl:value-of select="/rss/channel/link"/>
                                 </xsl:attribute>
                                 <xsl:attribute name="target">_blank</xsl:attribute>
-                                🌐
+                                <i class="fas fa-globe"></i>
                             </a>
                         </div>
                         
@@ -226,10 +232,11 @@
                                             <xsl:value-of select="enclosure/@url"/>?ref=new_window
                                         </xsl:attribute>
                                         <xsl:attribute name="target">_blank</xsl:attribute>
-                                        💾                                 
+                                        <i class="fas fa-download"></i>                           
                                         <xsl:value-of select='format-number(number(enclosure/@length div "1024000"),"0.0")'/>MB
-                                    </a> | ⏱ 
-                                    <xsl:value-of select="itunes:duration" disable-output-escaping="yes"/> | 🗓
+                                    </a> | <i class="fas fa-stopwatch"></i>
+                                    <xsl:value-of select="itunes:duration" disable-output-escaping="yes"/> | <i class="far fa-calendar"></i>
+
                                     <xsl:value-of select="pubDate" />
                             </p>
                         </div>
