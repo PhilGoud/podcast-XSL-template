@@ -142,6 +142,7 @@
                          font-family: "Font Awesome 5 Free";
                          margin-left: 5px;
                          margin-right: 5px;
+                         display: initial;
                     }
                 </style>
             </head>
